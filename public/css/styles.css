@@ -52,7 +52,7 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-displayor-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -10842,4 +10842,11 @@ section {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
+}
+
+.caption {
+  color: #212529; /* Darker shade typical of Bootstrap's darkest text, such as .text-dark */
+  margin: 0.5rem; /* Maintains default margin from .m-2 */
+  font-style: italic; /* Keeps text italicized */
+  font-size: 0.85rem; /* Smaller font size; adjust as necessary */
 }
